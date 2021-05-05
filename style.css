@@ -58,6 +58,7 @@ html {
 
 h2 {
 	padding: 20px 0px 20px 0px;
+	text-align: center;
 }
 
 h3 {
@@ -81,23 +82,17 @@ h4 {
 .row1-2 {
 	text-align: center;
 	display: inline-flex;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .row1-4 {
 	text-align: center;
 	display: flex;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .row1-8 {
 	padding-top: 20px;
 	text-align: center;
 	display: flex;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .home-content {
@@ -107,15 +102,11 @@ h4 {
 .client-row {
 	text-align: center;
 	display: flex;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .advisor-row {
 	text-align: center;
 	display: inline-flex;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .Joseph {
@@ -301,10 +292,9 @@ h4 {
 }
 
 .video {
-	margin-left: 150px;
+	margin-left: 50px;
 	position: absolute;
 	margin-top: -25px;
-	margin-left: 50px;
 	display: inline-flex;
 }
 
@@ -326,18 +316,25 @@ h4 {
 	text-align: center;
 }
 
+.timeline-content {
+	margin-left: -200px;
+	display: flex;
+}
+
+.timeline-row {
+	display: flex;
+}
+
 .fall ul li {
-	margin-left: 75px;
-	padding: 2px 0px 0px 0px;
+	padding: 2px 0px 0px 480px;
 	display: flex;
 	font-size: 16px;
 }
 
 .spring ul li {
-	margin-left: 75px;
-	padding: 2px 0px 0px 0px;
+	padding: 2px 0px 0px 410px;
 	display: flex;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 @-webkit-keyframes fade {
